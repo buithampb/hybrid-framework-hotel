@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CustomerHotel" parallel="false">
+<parameter name="url" value="http://14.176.232.213:8084/" />
+
+  
+	<test name="Run on CHROME">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="customerHotel.Login_Booking" />
+		</classes>
+	</test>
+	
+	<test name="Run on EDGE CHROMIUM"> 
+		<parameter name="browser" value="edge_chromium" />
+		<classes>
+			<class name="customerHotel.Login_Booking" />
+				
+		</classes>
+	</test>
+    
+	
+	
+
+</suite> 
